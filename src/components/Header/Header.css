@@ -1,0 +1,70 @@
+header {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  padding: 15px 20px;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+}
+header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-self: center;
+    font-size: 1.4rem;
+}
+
+/* header left */
+
+.header-left {
+  display: flex;
+  gap: 11px;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.header-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background: #cce4ff;
+  border-radius: 4px;
+  height: 24px;
+  padding: 4px 8px;
+  color: #475F7B;
+}
+
+.header-icon p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  color: #475F7B;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.01em;
+}
+.header-left__icon .icons {
+  font-size: 1.5rem;
+  width: 16px;
+  height: 16px;
+  color: #475F7B;
+}
+
+/* header right */
+
+.header-right{
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.header-right__profile{
+  width: 28px;
+  height: 28px;
+}
+.notification-icon{
+    width: 19px;
+    height: 18px;
+}
