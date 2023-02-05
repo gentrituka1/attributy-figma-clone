@@ -39,6 +39,7 @@ main{
     display: flex;
     gap: 30px;
     justify-content: end;
+    padding: 0px 20px;
 }
 .main-footer__div-p{
     display: grid;
